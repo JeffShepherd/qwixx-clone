@@ -1,0 +1,17 @@
+.game {
+  height: 100%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .game {
+    flex-direction: row;
+  }
+
+
+}
