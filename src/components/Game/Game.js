@@ -12,12 +12,14 @@ function Game() {
   }
   const [player1Board, setPlayer1Board] = useState(scoreBoard)
   const [player2Board, setPlayer2Board] = useState(scoreBoard)
-  const [gameMessage, setGameMessage] = useState('')
+  const [gameMessage, setGameMessage] = useState('Placeholder Message')
 
 
   return (
     <div className='game'>
-      <ActionBar />
+      <ActionBar 
+      gameMessage={gameMessage}
+      />
     </div>
   )
 }
