@@ -1,0 +1,36 @@
+.action-bar{
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game-message{
+  text-align: center;
+  margin: 0;
+}
+
+.points-vertical {
+  margin: auto 0;
+  font-size: .75rem;
+  padding-right: 3px;
+}
+
+.points-table-container {
+  display: flex;
+  margin: auto;
+}
+
+
+table, tbody, trow, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 2px;
+}

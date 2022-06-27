@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Game.css'
+import ActionBar from '../ActionBar/ActionBar'
 
 function Game() {
   const [turn, setTurn] = useState(1)
@@ -11,12 +12,14 @@ function Game() {
   }
   const [player1Board, setPlayer1Board] = useState(scoreBoard)
   const [player2Board, setPlayer2Board] = useState(scoreBoard)
-  const [gameMessage, setGameMessage] = useState('')
+  const [gameMessage, setGameMessage] = useState('Placeholder Message')
 
 
   return (
     <div className='game'>
-
+      <ActionBar 
+      gameMessage={gameMessage}
+      />
     </div>
   )
 }
