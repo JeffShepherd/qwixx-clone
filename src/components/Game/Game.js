@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Game.css'
+import ActionBar from '../ActionBar/ActionBar'
 
 function Game() {
   const [turn, setTurn] = useState(1)
@@ -16,7 +17,7 @@ function Game() {
 
   return (
     <div className='game'>
-
+      <ActionBar />
     </div>
   )
 }
