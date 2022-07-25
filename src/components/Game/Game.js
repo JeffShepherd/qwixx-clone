@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Game.css'
 import ActionBar from '../ActionBar/ActionBar'
 import Scoreboard from '../Scoreboard/Scoreboard'
+import GameBoard from '../GameBoard/GameBoard'
 
 function Game() {
   const [turn, setTurn] = useState(1)
@@ -18,11 +19,17 @@ function Game() {
 
   return (
     <div className='game'>
-      <Scoreboard player={1}/>
+      <div className='player-container'>
+        <Scoreboard player={1}/>
+        <GameBoard />
+      </div>
       <ActionBar 
       gameMessage={gameMessage}
       />
-      <Scoreboard player={2}/>
+      <div className='player-container'>
+        <Scoreboard player={2}/>
+        <GameBoard />
+      </div>
     </div>
   )
 }

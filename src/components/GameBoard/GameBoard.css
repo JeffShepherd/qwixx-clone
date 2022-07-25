@@ -1,0 +1,17 @@
+.gameboard {
+  width: 100%;
+}
+
+.gameboard-row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  width: 100%;
+}
+
+.gameboard-row > p {
+  outline: 1px black solid;
+  padding: 1.5%;
+  margin: 0;
+  text-align: center;
+}
