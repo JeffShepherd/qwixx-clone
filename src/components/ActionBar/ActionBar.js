@@ -7,10 +7,21 @@ function ActionBar({ gameMessage }) {
   return (
     <section className='action-bar'>
       <h2 className='game-message'>{gameMessage}</h2>
+
       <div className='button-container'>
         <button>Directions</button>
         <button>Roll Dice</button>
       </div>
+
+      <div className='dice-container'>
+        <img src='./assets/dice-test2.png' alt='dice' />
+        <img src='./assets/dice-test2.png' alt='dice' />
+        <img src='./assets/dice-test2.png' alt='dice' />
+        <img src='./assets/dice-test2.png' alt='dice' />
+        <img src='./assets/dice-test2.png' alt='dice' />
+        <img src='./assets/dice-test2.png' alt='dice' />
+      </div>
+
       <div className='points-table-container'>
         <p className='points-vertical'>points</p>
         <table>
