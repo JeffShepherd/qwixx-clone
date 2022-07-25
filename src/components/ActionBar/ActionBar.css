@@ -25,6 +25,15 @@
   margin: auto;
 }
 
+.dice-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dice-container > img {
+  width: 15%;
+}
+
 
 table, tbody, trow, td {
   border: 1px solid black;
