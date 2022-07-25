@@ -19,14 +19,17 @@ function Game() {
 
   return (
     <div className='game'>
-
-      <Scoreboard player={1}/>
-      {/* <GameBoard /> */}
+      <div className='player-container'>
+        <Scoreboard player={1}/>
+        <GameBoard />
+      </div>
       <ActionBar 
       gameMessage={gameMessage}
       />
-      <Scoreboard player={2}/>
-      {/* <GameBoard /> */}
+      <div className='player-container'>
+        <Scoreboard player={2}/>
+        <GameBoard />
+      </div>
     </div>
   )
 }

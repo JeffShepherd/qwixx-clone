@@ -5,12 +5,19 @@
   flex-direction: column;
 }
 
-
+.player-container {
+  height: 35%;
+}
 
 @media screen and (min-width: 1000px) {
 
   .game {
     flex-direction: row;
+  }
+
+  .player-container {
+    width: 35%;
+    height: 100%;
   }
 
 

@@ -6,7 +6,7 @@ function Scoreboard({ player }) {
 
 
   return (
-    <div className='scoreboard-container'>
+    <div>
       <h3 className='player-number'>Player {player}</h3>
       <section className='scoreboard'>
         <div>

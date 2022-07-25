@@ -1,6 +1,3 @@
-.scoreboard-container {
-  height: 35%;
-}
 
 .strike-container {
   display: flex;
@@ -23,9 +20,5 @@
 
 @media screen and (min-width: 1000px) {
 
-  .scoreboard-container {
-    width: 35%;
-    height: auto;
-  }
 
 }
