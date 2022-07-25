@@ -1,0 +1,7 @@
+.gameboard {
+  width: 100%;
+}
+
+.gameboard-row {
+  display: flex;
+}
