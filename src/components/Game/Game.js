@@ -18,11 +18,11 @@ function Game() {
 
   return (
     <div className='game'>
-      <Scoreboard />
+      <Scoreboard player={1}/>
       <ActionBar 
       gameMessage={gameMessage}
       />
-      <Scoreboard />
+      <Scoreboard player={2}/>
     </div>
   )
 }

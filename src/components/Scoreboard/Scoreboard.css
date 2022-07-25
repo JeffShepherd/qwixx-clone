@@ -1,0 +1,23 @@
+.strike-container {
+  display: flex;
+}
+
+.scoreboard {
+  display: flex;
+}
+
+.player-number {
+  margin: 0;
+  text-align: center;
+}
+
+.score {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+
+}
