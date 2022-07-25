@@ -1,0 +1,31 @@
+.scoreboard-container {
+  height: 35%;
+}
+
+.strike-container {
+  display: flex;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player-number {
+  margin: 0;
+  text-align: center;
+}
+
+.score {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  .scoreboard-container {
+    width: 35%;
+    height: auto;
+  }
+
+}
